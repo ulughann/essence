@@ -35,10 +35,10 @@ Essence
 │   └── utils
 │   |   ├── ...
 │   |
-│   ├── index.ts
-│   ├── config
-│   ├── logs.yml
+│   └── index.ts
 │
+├── config
+├── logs.yml
 ├── .gitignore
 ├── package.json
 ├── tsconfig.json
