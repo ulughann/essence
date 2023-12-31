@@ -10,7 +10,6 @@ import { parse } from "./utils/configParser";
 import { join, resolve } from "path";
 
 import { readdirSync, readFileSync, lstatSync } from "fs";
-import { $l } from "./utils/log";
 
 interface ClientWithCommands extends Client {
   commands: Collection<string, any>;

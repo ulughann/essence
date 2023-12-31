@@ -3,7 +3,7 @@ import moment from "moment";
 const logs = new Database("logs.yml");
 
 export function $l(msg: any): any {
-  logs.add(
+  logs.set(
     moment().format("YYYY/MM/DD HH:mm:ss"),
     msg
   );
