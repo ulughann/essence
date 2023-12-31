@@ -97,8 +97,8 @@ The `log.ts` util is used for logging to a file. It is used as follows:
 Example;
 
 ```ts
-import { Error } from "./utils/log";
-import { $l } from "./utils/configParser";
+import { Error } from "./utils/console";
+import { $l } from "./utils/log";
 
 catch (error) {
   Error("Hello World!", $l(error));
