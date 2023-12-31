@@ -10,6 +10,7 @@ import { parse } from "./utils/configParser";
 import { join, resolve } from "path";
 
 import { readdirSync, readFileSync, lstatSync } from "fs";
+import { $l } from "./utils/log";
 
 interface ClientWithCommands extends Client {
   commands: Collection<string, any>;
@@ -20,7 +21,7 @@ const client = new Client(intents) as ClientWithCommands;
 client.commands = new Collection();
 client.datas = [];
 
-const token = parse(readFileSync("config.noml", "utf-8")).token;
+const token = parse(readFileSync("config", "utf-8")).token;
 
 const getFiles = (dir, files = []) => {
   readdirSync(dir).forEach((file) => {
