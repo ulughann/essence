@@ -114,3 +114,6 @@ This file is used to define the intents, shards and partials for your bot. By de
 <h1 style="display: flex; align-items: center; font-size: 24px;">Requirements</h1>
 
 - [Node.js](https://nodejs.org/en/) v16 or higher
+
+  ![Stats](https://repobeats.axiom.co/api/embed/d86852e3898713e1283f4916a29d73a701c9266c.svg "Repobeats analytics image")
+
